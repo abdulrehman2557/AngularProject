@@ -1,0 +1,99 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    color: #ffffff;
+  }
+  
+  /* Article Wrapper */
+  .article-wrapper {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #292929;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Header Section */
+  .article-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .article-header h1 {
+    font-size: 36px;
+    color: #00adb5;
+    margin-bottom: 10px;
+  }
+  
+  .article-header .subheading {
+    font-size: 18px;
+    color: #bbbbbb;
+    line-height: 1.6;
+  }
+  
+  /* Content Section */
+  .article-content {
+    padding: 20px;
+  }
+  
+  .article-section {
+    margin-bottom: 25px;
+    border-left: 4px solid #00adb5;
+    padding-left: 15px;
+  }
+  
+  .article-section h2 {
+    font-size: 24px;
+    color: #ff5722;
+    margin-bottom: 10px;
+  }
+  
+  .article-section p {
+    font-size: 16px;
+    color: #dddddd;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  /* Footer Section */
+  .article-footer {
+    margin-top: 30px;
+    padding: 15px;
+    background: #333333;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .article-footer p {
+    font-size: 18px;
+    color: #76ff03;
+    font-weight: bold;
+  }
+  
+  /* Add Hover Effects */
+  .article-section:hover {
+    background: rgba(255, 87, 34, 0.1);
+    transition: 0.3s ease;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .article-wrapper {
+      padding: 15px;
+    }
+  
+    .article-header h1 {
+      font-size: 28px;
+    }
+  
+    .article-header .subheading,
+    .article-section p,
+    .article-footer p {
+      font-size: 15px;
+    }
+  }
+  

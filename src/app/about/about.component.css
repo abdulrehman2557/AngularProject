@@ -1,0 +1,61 @@
+.body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.AbdulRehman
+{
+    font-family: 'Times New Roman', Times, serif;
+ 
+    font-size: 70px;
+   
+}
+
+
+
+
+
+
+
+/* float animation */
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); /* Float up */
+    }
+    100% {
+        transform: translateY(0); /* Return to original position */
+    }
+}
+
+/* Apply the animation to the image */
+.float-image {
+    width: 600px;
+   
+    display: block;
+    margin: 40px auto;
+    animation: float 3s infinite ease-in-out;
+}
+
+.float-card
+{
+    
+   
+    display: block;
+    margin: 40px auto;
+    animation: float 3s infinite ease-in-out;
+}
+
+ul li:hover{
+
+   
+    text-decoration:  underline 2px ;
+    color: green;
+    
+}
+*{
+    background-color:black;
+}

@@ -1,0 +1,42 @@
+<div class="fluid-container vh-100">
+
+    <!-- <div class="container">
+        <h1>Add Title, Description, and Image</h1>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" placeholder="Enter title" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" placeholder="Enter description" required></textarea>
+
+            <label for="image">Upload Image:</label>
+            <input type="file" id="image" name="001" accept="001" id="001" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div> -->
+<!--Under this GPT Code insert-->
+<div>
+    <h2>Project List</h2>
+    <ul>
+      <li *ngFor="let project of projects">
+        <strong>{{ project.title }}</strong>: {{ project.description }}
+        <button (click)="deleteProject(project.id)">Delete</button>
+        <button (click)="updateProject(project.id, 'Updated Title', 'Updated Description')">Update</button>
+      </li>
+    </ul>
+  
+    <h3>Add a New Project</h3>
+    <form (ngSubmit)="addProject()">
+      <label for="title">Title:</label>
+      <input type="text" [(ngModel)]="newProject.title" name="title" required />
+  
+      <label for="description">Description:</label>
+      <input type="text" [(ngModel)]="newProject.description" name="description" required />
+  
+      <button type="submit">Add Project</button>
+    </form>
+  </div>
+
+   <!--Above-->
+</div>

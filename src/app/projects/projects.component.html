@@ -1,0 +1,15 @@
+<div class="fluid-container vh-100">
+    <div class="d-flex align-items-center justify-content-center">
+        <h1 class="heading text-center" style="color: white;">Imagination Trumps Knowledge! </h1>
+    </div>
+    <div class="projects-container">
+      <h2 style="color:green;">Our Projects</h2>
+      <div class="cards">
+        <div class="card" *ngFor="let project of projects">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </div>
+</div>

@@ -1,12 +1,30 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './Components/header/header.component';
+import { SettingComponent } from './setting/setting.component';
+
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [
+    RouterOutlet,HeaderComponent,
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Angular-Ant-Design';
-}
+  
+    
+
+    }
+
+   
+
+
+
+
+  
+
+  
+

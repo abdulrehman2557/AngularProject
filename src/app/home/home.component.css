@@ -1,0 +1,21 @@
+.fluid-container {
+    background-color:black;
+}
+
+button {
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #202020;
+    color: white;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

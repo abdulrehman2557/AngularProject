@@ -1,0 +1,35 @@
+.navbar {
+  background-color: black;
+}
+
+ul li {
+  font-size: large;
+  font-weight: 350;
+  padding: 20px;
+
+
+}
+
+svg {
+  color: #E4405F;
+  /* Instagram color */
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease;
+}
+
+svg:hover {
+  transform: scale(1.2);
+}
+
+a svg {
+  width: 30px;
+  height: 30px;
+  color: #000;
+  /* Change color */
+  transition: transform 0.2s ease;
+}
+
+a svg:hover {
+  transform: scale(1.2);
+}
